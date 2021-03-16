@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let tableMultiplication = "<table border='1' width='800' cellspacing='1' cellpadding='3'>"
+   for(let i = 2;i<=9;i++){
+       tableMultiplication = tableMultiplication + "<tr>";
+       for (let j = 1; j<=9;j++){
+           tableMultiplication = tableMultiplication + "<td>" +i+" x " +j+" = " +i*j +"</td>";
+       }
+       tableMultiplication = tableMultiplication + "</tr>"
+   }
+    tableMultiplication = tableMultiplication + "</table>";
+   document.write(tableMultiplication);
+</script>
